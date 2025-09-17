@@ -56,5 +56,31 @@ Hello frome Misha
 
 Hello! I`m Anatoliy, nice to meet you!
 
+
 Hello everyone, I'm Sergii. Nice to meet you all!
 
+
+HELLO from Leonid
+
+Hello from Artem
+
+Hello from Dimon
+
+Hello from Nazar
+
+Hello World? i'm Nastya
+
+
+HELLO from Leonid
+
+Hello from Artem
+
+Hello from Dimon
+
+Hello from Nazar
+
+Hello from Artem
+
+Hello from Dimon
+
+Greetings from Oleksandr & Kirilo
