@@ -34,6 +34,13 @@ Hello from Stepan)
 
 Hey, I'm Yeghor! This is my attempt to tinker with Git :0
 
+
+Hello from Dmytro!)
+
+Hello from Tolik
+
+Hi there from Daryna 
+
 Hello from Dmytro!)
 
 Hello from Tolik
@@ -93,4 +100,5 @@ Hello Word i am Denis (O\_o)
 Hi from Myroslav
 
 Hello everyone form Vasya
+
 
