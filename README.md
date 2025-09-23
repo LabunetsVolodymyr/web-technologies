@@ -1,6 +1,7 @@
 I am Artem Karachevtsev. Greetings to all!
 
 
+
 Bonjour! I'm Kate and that's my 2nd try!
 
 Greetings from Vitalii.
@@ -14,6 +15,7 @@ Hello! Im Maks and I very enjoyed this course ;)
 Hello world from Diana! :P
 
 hello there! Vanya' is here!
+
 
 Hello world from Diana! :P
 
@@ -43,6 +45,7 @@ Hi there from Daryna
 
 Hello from Dmytro!)
 
+
 Hello from Tolik
 
 
@@ -60,7 +63,11 @@ Hello frome Misha
 
 Hello! I am Anatoliy, nice to meet you!
 
+
+
 HELLO from Leonid
+
+Hello from Oleksandr
 
 Hello from Artem
 
@@ -103,5 +110,9 @@ Hi from Myroslav
 Hello everyone form Vasya
 
 Yo, I'm Sasha 
+
+Hello everyone, I'm Sergii. Nice to meet you all!
+
+im jeka()
 
 Gutten Morgen von Oleksii
