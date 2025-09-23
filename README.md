@@ -67,6 +67,8 @@ Hello! I am Anatoliy, nice to meet you!
 
 HELLO from Leonid
 
+Hello from Oleksandr
+
 Hello from Artem
 
 Hello from Dimon
@@ -108,4 +110,8 @@ Hi from Myroslav
 Hello everyone form Vasya
 
 Yo, I'm Sasha 
+
 Hello everyone, I'm Sergii. Nice to meet you all!
+
+im jeka()
+
