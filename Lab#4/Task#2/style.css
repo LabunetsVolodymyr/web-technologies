@@ -1,0 +1,41 @@
+.recipe {
+    text-align: center;
+}
+
+h1 {
+    color: red;
+}
+
+h2 {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.underline {
+    text-decoration: underline;
+}
+
+.line-through{
+    text-decoration: line-through;
+}
+
+.text-transform {
+    text-transform: uppercase;
+}
+
+.allocated {
+    background: yellow;
+}
+
+#note {
+    font-family: Marker Script, cursive;
+}
+
+#line {
+    height: 3px;
+    background: green;
+
+}

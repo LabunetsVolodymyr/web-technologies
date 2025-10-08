@@ -1,0 +1,27 @@
+a {
+    color: purple;
+}
+
+a.main {
+    color: green;
+}
+
+ul.square-marker {
+    list-style: square;
+}
+
+.image-marker {
+    list-style-image: url("li.svg");
+}
+
+ul li ul {
+    list-style: none;
+}
+
+.underline a {
+    text-decoration: none;
+}
+
+.number-marker {
+    list-style: decimal;
+}
