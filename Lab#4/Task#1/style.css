@@ -1,7 +1,7 @@
 * {
-    font-family: Arial, serif;
+    font-family: Arial;
     font-size: 20px;
-    text-indent: 40px;
+    line-height: 40px;
 }
 
 p {
@@ -13,30 +13,30 @@ div {
     text-align: justify;
 }
 
-.color-red {
+.text-color {
     color: red;
 }
 
-.white-space {
+.single-line {
     white-space: nowrap;
 }
 
-#italic-bold {
-    font-style: italic;
+#cursiveBold {
     font-weight: bold;
+    font-style: italic;
 }
 
-.shadow {
-    text-shadow: 5px -5px 3px red;
+.text-shadowed {
+    text-shadow: 5px -5px 3px rgb(255, 0, 0);
 }
 
-.block-one {
+.text-lined-upper {
     text-decoration: line-through;
     text-transform: uppercase;
     text-indent: 50px;
 }
 
-.block-two {
-    letter-spacing: 30px;
+.indented {
     word-spacing: 50px;
+    letter-spacing: 30px;
 }

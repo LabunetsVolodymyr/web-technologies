@@ -24,7 +24,7 @@ section > p {
 }
 
 li > ul {
-    list-style-image: url('li.svg');
+    list-style-image: url('check.png');
 }
 
 div > p.text-background {
