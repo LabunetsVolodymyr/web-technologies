@@ -1,0 +1,233 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+label {
+    color: white;
+}
+
+label,
+button {
+    font-size: 18px;
+}
+
+.form-container {
+    padding: 0 20px 20px 20px;
+    width: 620px;
+    min-height: 410px;
+    border: 20px solid #868686;
+    background-image: url(../img/fon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.form-container form h2 {
+    color: #7d21b3;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 700;
+    font-style: italic;
+    margin: 20px 20px 5px 20px;
+    position: relative;
+}
+
+.form-container form h2::first-letter {
+    color: magenta;
+    font-size: 50px;
+}
+
+.start::before,
+.start::after {
+    content: "";
+    display: block;
+    height: 2px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    background: red;
+}
+
+.start::before {
+    left: 0;
+}
+.start::after {
+    right: 0;
+}
+
+.underline {
+    position: relative;
+}
+
+.underline::after {
+    content: "";
+    margin: 0 auto;
+    height: 2px;
+    width: 300px;
+    background: red;
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.underline:hover::after {
+    background: green;
+    width: 450px;
+}
+
+.underline:hover .start {
+    display: none;
+}
+
+.underline:hover .hover {
+    display: block;
+}
+
+.hover {
+    display: none;
+}
+
+.fields-container::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.form-group {
+    width: 48%;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group:nth-of-type(odd) {
+    float: left;
+    clear: left;
+}
+
+.form-group:nth-of-type(even) {
+    float: right;
+    clear: right;
+}
+
+.textarea-group {
+    width: 100%;
+    float: none;
+    clear: both;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    height: 34px;
+    background-color: rgba(255, 255, 255, 0.6);
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    text-indent: 20px;
+    color: black;
+    border: none;
+    border-bottom: 4px solid transparent;
+    transition: all 0.2s ease;
+    opacity: 0.9;
+}
+
+.fields-container .textarea-group textarea {
+    width: 100%;
+    height: 46px;
+    resize: none;
+    padding: 5px;
+}
+
+input[type='text']:hover,
+input[type='email']:hover {
+    border-bottom-color: #fbff00; /* жовтий */
+    background-color: #fbff00a2;
+}
+
+input[type='text']:focus,
+input[type='email']:focus {
+    border-bottom-color: #ffa600; /* помаранчевий */
+    background-color: #ffa600a2;
+}
+
+input[type='password']:hover {
+    border-bottom-color: #1eff00; /* салатовий */
+    background-color: #1eff00a2;
+}
+
+input[type='password']:focus {
+    border-bottom-color: #00ffea; /* бірюзовий */
+    background-color: #00ffea8a;
+}
+
+.textarea-group textarea:hover {
+    box-shadow: 0 0 10px 5px rgba(233, 27, 154, 0.6); /* рожеве світіння */
+}
+
+.btn-group {
+    float: right;
+    clear: both;
+    margin-top: 15px;
+}
+
+.btn-group button {
+    border: 3px solid;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    font-weight: bold;
+    text-transform: uppercase;
+    transition: all 0.2s ease;
+    background-color: #e3e3e3;
+}
+
+.btn-group button[type='reset'] {
+    border-color: #e64a19;
+    color: #e64a19;
+}
+
+.btn-group button[type='reset']:hover {
+    color: white;
+    background-color: #e6491989;
+    border-radius: 15px;
+}
+
+.btn-group button[type='reset']:active {
+    background-color: #a02904;
+    border-color: #ecfd00;
+    border-radius: 25px;
+    position: relative;
+}
+
+.btn-group button[type='submit'] {
+    border-color: #0097a7;
+    color: #0097a7;
+}
+
+.btn-group button[type='submit']:hover {
+    color: white;
+    background-color: #0096a75b;
+    border-radius: 15px;
+}
+
+.btn-group button[type='submit']:active {
+    background-color: #014950;
+    border-color: #ecfd00;
+    border-radius: 25px;
+    position: relative;
+}
+
+form hr {
+    width: 80%;
+    border-color: greenyellow;
+    background-color: greenyellow;
+    border-radius: 10px;
+    height: 3px;
+}
+
+textarea::first-line {
+    color: red;
+}

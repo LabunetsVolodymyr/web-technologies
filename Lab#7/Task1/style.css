@@ -1,0 +1,43 @@
+.container {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    margin: 100px auto;
+}
+
+.block {
+    position: absolute;
+    color: black;
+    text-align: center;
+    padding: 10px;
+    border: 2px solid black;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.block-one {
+    background-color: #00b050;
+    width: 170px;
+    height: 80px;
+    top: 0;
+    left: 170px;
+    z-index: 1;
+}
+
+.block-two {
+    background-color: #4a90e2;
+    width: 230px;
+    height: 70px;
+    top: 80px;
+    left: -10px;
+    z-index: 2;
+}
+
+.block-three {
+    background-color: #8fd3e8;
+    width: 230px;
+    height: 70px;
+    top: 80px;
+    left: 290px;
+    z-index: 2;
+}
