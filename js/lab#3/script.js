@@ -1,9 +1,5 @@
 function countFibonacciSequenceSum() {
-    let a = 0;
-    let b = 1;
-    let count = 0;
-    let sum = 0;
-
+    let sum = 0, count = 0, a = 0, b = 1;
     while (count < 10) {
         let nextNumber = a + b;
         sum += a;
@@ -11,9 +7,8 @@ function countFibonacciSequenceSum() {
         b = nextNumber;
         count++;
     }
-    console.log("Сума перших 10 чисел Фібоначчі:", sum);
+    return sum;
 }
-countFibonacciSequenceSum();
 
 
 function sumPrimeNumbers() {
@@ -32,9 +27,8 @@ function sumPrimeNumbers() {
             sum += i;
         }
     }
-    console.log("Сума простих чисел від 1 до 1000:", sum);
+    return sum;
 }
-sumPrimeNumbers();
 
 
 function dayOfWeek(){
@@ -92,17 +86,12 @@ const plusOne = (numbers) => {
     return result;
 };
 let nums = [1, 2, 3, 4, 5];
-console.log(plusOne(nums));
 
+const checkTen = (a, b) => (a + b === 10) || Math.abs(a - b) === 10;
 
-function sumOrDifference(a, b) {
-    if (a + b === 10 || Math.abs(a-b) === 10){
-        return true;
-    }
-
-    return false;
-}
-
-console.log(sumOrDifference(7, 3));
-console.log(sumOrDifference(20, 10));
-console.log(sumOrDifference(1, 3));
+console.log("Сума перших 10 чисел Фібоначчі:", countFibonacciSequenceSum());
+console.log("Сума простих чисел від 1 до 1000:", sumPrimeNumbers());
+console.log("Завдання 4:", removeEvenLengthString(["cat", "dog", "fish", "bird"]));
+console.log("Завдання 5:", plusOne(nums));
+console.log("Завдання 6 (2, 12):", checkTen(2, 12));
+console.log("Завдання 6 (4, 5):", checkTen(4, 5));
