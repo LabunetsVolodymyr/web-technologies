@@ -1,0 +1,31 @@
+body {
+    background: #f4f7f6;
+    font-family: sans-serif;
+    padding: 20px; }
+.shop-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05); }
+.product-card {
+    border-left: 5px solid #3498db;
+    background: #fafafa;
+    padding: 10px;
+    margin: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+input {
+    padding: 8px;
+    margin-bottom: 5px;
+    width: calc(100% - 20px); }
+button {
+    padding: 8px 15px;
+    background: #3498db;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer; }
+.btn-del { background: #e74c3c; }

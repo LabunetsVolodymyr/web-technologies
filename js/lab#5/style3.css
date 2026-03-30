@@ -1,0 +1,32 @@
+body
+{ font-family: 'Courier New', monospace;
+    background: #e0e0e0;
+    padding: 20px;
+    text-align: center;
+}
+.clock-card, .calendar-card, .timer-card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 15px auto;
+    max-width: 400px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1); }
+#clock {
+    font-size: 3rem;
+    margin: 0;
+    color: #d35400; }
+input, button {
+    padding: 10px;
+    margin: 10px 0;
+    width: 90%;
+    border: 1px solid #ccc;
+    border-radius: 5px; }
+button {
+    background: #000000;
+    color: white;
+    cursor: pointer; }
+#timerDisplay {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #c0392b;
+}

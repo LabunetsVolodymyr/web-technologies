@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Світлофор - Лабораторна №5</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+
+<div class="traffic-light-container">
+    <div class="traffic-light">
+        <div id="red" class="lamp"></div>
+        <div id="yellow" class="lamp"></div>
+        <div id="green" class="lamp"></div>
+    </div>
+
+    <div class="info-panel">
+        <div class="buttons">
+            <button onclick="initTrafficLight()">Запустити авто-режим</button>
+            <button onclick="stopTrafficLight()">Виключити</button>
+            <button onclick="manualNext()">Наступний стан (вручну)</button>
+            <button onclick="setupTimes()">Налаштувати таймінги</button>
+        </div>
+
+    </div>
+</div>
+
+<script src="script2.js"></script>
+</body>
+</html>

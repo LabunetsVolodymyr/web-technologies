@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 1 - Лампочка</title>
+    <style>
+        .bulb { width: 100px; height: 100px; background-color: #eee; margin: 20px; border-radius: 50% 50%;  }
+        .bulb.on { background-color: #ffff00; box-shadow: 0 0 50px yellow; }
+        .controls { margin-top: 20px; }
+    </style>
+</head>
+<body>
+<div id="bulb" class="bulb"></div>
+<div class="controls">
+    <button onclick="toggleBulb()">Ввімкнути/Вимкнути</button>
+    <button onclick="setBrightness()">Змінити яскравість</button>
+    <select id="bulbType" onchange="updateType()">
+        <option value="standard">Звичайна</option>
+        <option value="led">Світлодіодна</option>
+        <option value="energy">Енергозберігаюча</option>
+    </select>
+</div>
+<script src="script.js"></script>
+</body>
+</html>

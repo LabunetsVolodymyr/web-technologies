@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>Завдання 3 - Дата та час</title>
+    <link rel="stylesheet" href="style3.css">
+
+</head>
+<body>
+<div class="clock-card">
+    <h1 id="clock">00:00:00</h1>
+</div>
+
+<div class="calendar-card">
+    <h3>Календар та ДН</h3>
+    <input type="date" id="bdayInput">
+    <button onclick="calculateBday()">Скільки лишилося до ДН?</button>
+    <div id="bdayResult"></div>
+</div>
+
+<div class="timer-card">
+    <h3>Таймер зворотного відліку</h3>
+    <input type="datetime-local" id="timerInput">
+    <button onclick="startCountdown()">Запустити</button>
+    <div id="timerDisplay">Чекаю...</div>
+</div>
+<script src="script3.js"></script>
+</body>
+</html>
