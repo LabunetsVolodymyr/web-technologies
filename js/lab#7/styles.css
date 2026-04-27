@@ -68,6 +68,7 @@ body {
     overflow: hidden;
     background: url('img/bg.png') no-repeat center center;
     background-size: cover;
+
 }
 
 .game-screen--death {
@@ -157,7 +158,7 @@ body {
     overflow: visible;
     transform: scale(3);
     transform-origin: bottom left;
-    cursor: url('img/aim_2.png') 32 32, crosshair;
+    cursor: url('img/aim.png') 32 32, crosshair;
 }
 
 .gunman {
@@ -221,6 +222,7 @@ body {
 
 /* CHAR-3 (Quick Draw) */
 .char-3 { height: 84px; }
+
 .char-3.walk { animation: c3-walk 0.5s infinite; }
 @keyframes c3-walk {
     0%, 32.99%  { width: 27px; background-position: 0 -141px; }
@@ -236,11 +238,30 @@ body {
     100%        { width: 31px; background-position: -141px -141px; }
 }
 .char-3.shoot { width: 31px; background-position: -172px -141px; }
-.char-3.death { animation: c3-death 3.5s step-end forwards; }
-@keyframes c3-death {
-    0%, 32.99%  { width: 32px; background-position: -205px -141px; margin-left: 0; }
-    33%, 65.99% { width: 19px; background-position: -238px -141px; margin-left: 5px; }
-    66%, 100%   { width: 31px; background-position: -260px -141px; margin-left: 2px; }
+
+.gunman.char-3.death {
+    width: 32px;
+    background-position: -205px -141px;
+    margin-left: 0;
+    animation: none;
+}
+
+.gunman.char-3.death::after {
+    content: '';
+    position: absolute;
+    top: -65px;
+    left: 5px;
+    width: 19px; height: 84px;
+    background-image: url('img/gunman.png');
+    background-position: -238px -141px;
+    image-rendering: pixelated;
+    animation: hat-fly-away 2s ease-in forwards;
+}
+
+@keyframes hat-fly-away {
+    0%   { transform: translate(0, 0) rotate(0deg); }
+    30%  { transform: translate(40px, -30px) rotate(45deg); }
+    100% { transform: translate(100px, 130px) rotate(140deg); }
 }
 
 /* CHAR-4 (El Sombrero) */
